@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9702,4 +9697,81 @@ textarea.form-control {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
+    stroke-dashoffset: -136px; }
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Certificate {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    padding: 50px 0; /* Add padding to the section */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.work-box {
+    margin-bottom: 30px;
+    border: 5px solid #ffc107; /* Set yellow border color */
+    overflow: hidden;
+}
+
+.work-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.work-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.work-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-box:hover .work-content {
+    opacity: 1;
+}
+
+.w-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.w-category {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Optional: Add styles for image scaling on hover */
+.work-box:hover .work-img img {
+    transform: scale(1.1);
+}
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera, and Firefox */
+}
