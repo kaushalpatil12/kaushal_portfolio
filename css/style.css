@@ -50,7 +50,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #212729;
   text-align: left;
   background-color: #fff; }
 
@@ -9709,12 +9709,13 @@ textarea.form-control {
 #Certificate {
     background-color: #000; /* Set background color to black */
     color: #fff; /* Set text color to white */
-    padding: 50px 0; /* Add padding to the section */
+    padding: 30px 0; /* Add padding to the section */
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+   
 }
 
 .work-box {
