@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my portfolio website repository! This project serves as an online showcase of my skills, projects, and achievements. Feel free to explore and learn more about me and my work.
+Welcome to my portfolio website repository! This project is an online showcase of my skills, projects, and achievements. Feel free to explore and learn more about me and my work.
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ To view the website locally, follow these steps:
 
 ## Project Structure
 
-- **index.html:** The main HTML file containing the structure of the website.
+- **index.html:** The main HTML file containing the website's structure.
 - **css/:** Folder containing stylesheets.
 - **js/:** Folder containing JavaScript files (if any).
 - **images/:** Folder containing images and graphics.
@@ -73,6 +73,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, you can reach me via email at [your.email@example.com](mailto:your.email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-username/).
+For any inquiries, you can reach me via email at [your.email@example.com](mailto:patilkaushal52@gmail.ccom) or connect with me on [LinkedIn](https://www.linkedin.com/in/#).
 
 Thank you for visiting my portfolio repository! I hope you find it informative and visually appealing.
